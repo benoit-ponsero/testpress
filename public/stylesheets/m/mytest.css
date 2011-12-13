@@ -1,0 +1,17 @@
+
+div {
+	height:300px;
+	background-position: top right;
+}
+
+#bowser {
+	background: url(bowser.png) no-repeat;
+} 
+
+#mario {
+	background: url(../../images/mario.jpg) no-repeat;	
+}
+
+#luigi {
+	background: url(j/luigi.jpg) no-repeat;	
+}

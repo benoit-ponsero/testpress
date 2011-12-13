@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>#{get 'title' /}</title>
+        <meta charset="${_response_encoding}">
+        
+        #{press.stylesheet 'm/mytest.css'/}
+        #{press.compressed-stylesheet/} 
+    </head>
+    <body>
+        /public/stylesheets/m/mytest.css :
+        <div id="bowser">
+            <code>#bowser {
+            background: url(bowser.png) no-repeat;
+            }</code>
+        </div>
+        <div id="mario">
+            <code>#mario {
+                background: url(../../images/mario.jpg) no-repeat; 
+            }</code>
+        </div>
+        <div id="luigi">
+        <code>#mario {
+                background: url(j/luigi.jpg) no-repeat; 
+            }</code>
+        </div>
+
+        #{doLayout /}
+    </body>
+</html>
